@@ -1,0 +1,203 @@
+PROGRAM 1
+SQL Query:
+1) 
+create database Company;
+Query OK, 1 row affected (0.011 sec)
+show databases;
++--------------------+
+| Database           |
++--------------------+
+| company            |
+| information_schema |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| test               |
++--------------------+
+6 rows in set (0.032 sec)
+
+use Company;
+Database changed
+create table Department(Deptid integer(5) primary key,Deptname varchar(15) NOT NULL,UNIQUE(Deptname));
+Query OK, 0 rows affected (0.045 sec)
+create table Employees(Empid integer(5) primary key,Ename varchar(20) NOT NULL,Deptid integer(5),foreign key(Deptid) references Department(Deptid) ON DELETE cascade ON UPDATE cascade);
+Query OK, 0 rows affected (0.052 sec)
+
+2)
+ alter table Employees add (emailid varchar(40),salary integer(8),remarks varchar(45));
+Query OK, 0 rows affected (0.025 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+3) 
+alter table Employees add UNIQUE(emailid);
+Query OK, 0 rows affected (0.036 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+4) 
+alter table Employees add CHECK(salary>=5000);
+Query OK, 0 rows affected (0.125 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+5)
+ alter table Employees DROP COLUMN remarks;
+Query OK, 0 rows affected (0.030 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+6)
+desc Department;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| Deptid   | int(5)      | NO   | PRI | NULL    |       |
+| Deptname | varchar(15) | NO   | UNI | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+2 rows in set (0.036 sec)
+
+desc Employees;
++---------+-------------+------+-----+---------+-------+
+| Field   | Type        | Null | Key | Default | Extra |
++---------+-------------+------+-----+---------+-------+
+| Empid   | int(5)      | NO   | PRI | NULL    |       |
+| Ename   | varchar(20) | NO   |     | NULL    |       |
+| Deptid  | int(5)      | YES  | MUL | NULL    |       |
+| emailid | varchar(40) | YES  | UNI | NULL    |       |
+| salary  | int(8)      | YES  |     | NULL    |       |
++---------+-------------+------+-----+---------+-------+
+5 rows in set (0.052 sec)
+
+7)
+insert into Department values(100,'Finance');
+Query OK, 1 row affected (0.007 sec)
+
+insert into Department values(101,'Production');
+Query OK, 1 row affected (0.004 sec)
+
+ insert into Department values(201,'Marketing');
+Query OK, 1 row affected (0.004 sec)
+
+insert into Department values(301,'sales');
+Query OK, 1 row affected (0.004 sec)
+
+insert into Department values(501,'Others');
+Query OK, 1 row affected (0.003 sec)
+
+insert into Employees values(1221,'manu',101,'manu12@gmail.com',45000);
+Query OK, 1 row affected (0.005 sec)
+
+insert into Employees values(1331,'anju',501,'anju21@gmail.com',5000);
+Query OK, 1 row affected (0.003 sec)
+
+insert into Employees values(1441,'manoj',201,'manoj31@gmail.com',35000);
+Query OK, 1 row affected (0.003 sec)
+
+insert into Employees values(1551,'arya',100,'arya45@gmail.com',40000);
+Query OK, 1 row affected (0.004 sec)
+
+insert into Employees values(1661,'sijo',301,'sijo@gmail.com',40000);
+Query OK, 1 row affected (0.005 sec)
+
+8)
+select * from Department;
++--------+------------+
+| Deptid | Deptname   |
++--------+------------+
+|    100 | Finance    |
+|    201 | Marketing  |
+|    501 | Others     |
+|    101 | Production |
+|    301 | sales      |
++--------+------------+
+5 rows in set (0.001 sec)
+select * from Employees;
++-------+-------+--------+-------------------+--------+
+| Empid | Ename | Deptid | emailid           | salary |
++-------+-------+--------+-------------------+--------+
+|  1221 | manu  |    101 | manu12@gmail.com  |  45000 |
+|  1331 | anju  |    501 | anju21@gmail.com  |   5000 |
+|  1441 | manoj |    201 | manoj31@gmail.com |  35000 |
+|  1551 | arya  |    100 | arya45@gmail.com  |  40000 |
+|  1661 | sijo  |    301 | sijo@gmail.com    |  40000 |
++-------+-------+--------+-------------------+--------+
+5 rows in set (0.001 sec)
+
+9)
+select Ename from Employees where Deptid=101;
++-------+
+| Ename |
++-------+
+| manu  |
++-------+
+1 row in set (0.001 sec)
+
+10)
+     select Ename,salary from Employees;
++-------+--------+
+| Ename | salary |
++-------+--------+
+| manu  |  45000 |
+| anju  |   5000 |
+| manoj |  35000 |
+| arya  |  40000 |
+| sijo  |  40000 |
++-------+--------+
+5 rows in set (0.001 sec)
+
+11)
+   update Employees set salary=50000 where Empid=1221;
+Query OK, 1 row affected (0.005 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+select Empid,salary from Employees;
++-------+--------+
+| Empid | salary |
++-------+--------+
+|  1221 |  50000 |
+|  1331 |   5000 |
+|  1441 |  35000 |
+|  1551 |  40000 |
+|  1661 |  40000 |
++-------+--------+
+5 rows in set (0.001 sec)
+
+12)
+  delete from Employees where Empid=1331;
+Query OK, 1 row affected (0.004 sec)
+
+select * from employees;
++-------+-------+--------+-------------------+--------+
+| Empid | Ename | Deptid | emailid           | salary |
++-------+-------+--------+-------------------+--------+
+|  1221 | manu  |    101 | manu12@gmail.com  |  50000 |
+|  1441 | manoj |    201 | manoj31@gmail.com |  35000 |
+|  1551 | arya  |    100 | arya45@gmail.com  |  40000 |
+|  1661 | sijo  |    301 | sijo@gmail.com    |  40000 |
++-------+-------+--------+-------------------+--------+
+4 rows in set (0.001 sec)
+
+13)
+select ename from Employees where salary=13000;
+Empty set (0.001 sec)
+
+14) delete *  from Employees where Deptid=201;
+select * from Department;
++--------+------------+
+| Deptid | Deptname   |
++--------+------------+
+|    100 | Finance    |  |
+|    501 | Others     |
+|    101 | Production |
+|    301 | sales      |
++--------+------------+
+15)
+select * from Employees ORDER BY salary asc;
++-------+-------+--------+-------------------+--------+
+| Empid | Ename | Deptid | emailid           | salary |
++-------+-------+--------+-------------------+--------+
+|  1441 | manoj |    201 | manoj31@gmail.com |  35000 |
+|  1551 | arya  |    100 | arya45@gmail.com  |  40000 |
+|  1661 | sijo  |    301 | sijo@gmail.com    |  40000 |
+|  1221 | manu  |    101 | manu12@gmail.com  |  50000 |
+5	rows in set (0.001 sec)
+
+
+PROGRAM 2

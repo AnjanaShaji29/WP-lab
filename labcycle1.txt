@@ -1,0 +1,535 @@
+PROGRAM 1
+Source Code
+<!DOCTYPE html>
+<html>
+<head>
+<title> Lists
+</title>
+</head>
+<body bgcolor="#EOFFFF">
+We can list the devices of a computer.
+<ul type="square">
+	<li>Input Devices</li>
+</ul>
+<ol type="1">
+	<li>keyboard</li>	
+	<li>Mouse</li>
+	<li>Scanner</li>
+</ol>
+<ul type="circle">
+	<li>Output devices</li>
+</ul>
+<ol type="a">
+	<li>Monitor</li>	
+	<li>Speaker</li>
+	<li>Printer</li>
+</ol>
+<ul type="square">
+	<li>Memory Devices</li>
+</ul>
+<ol type="I">
+	<li>ROM</li>	
+	<li>Hard disc</li>
+	<li>Flash Drive</li>
+</ol>
+</body>
+</html>
+
+	
+PROGRAM 2
+Source Code
+<html> 
+<head>
+<title>Different types of tags</title>
+ </head>
+<body bgcolor="yellow">
+<h1 align="center"><u><font size=8 face="Times New Roman" color="red">Mark Zuckerberg</font></u></h1>
+<img src="Mark.jpg" width=300 height=300 align="middle">
+<h2><marquee align="center" direction="right" behavior="scroll" bgcolor="blue">Creator of Facebook</marquee></h2>
+<br>
+<h3><font face="imprint MT Shadow" size="5" color="green">BIOGRAPHY</font></h3><br>
+<p><b>Mark Zuckerberg is co-founder and CEO of the social-networking website Facebook, as well as one of the world's youngest billionaires.</b></p><br>
+<p>Mark Zuckerberg co-founded the social-networking website<a href=facebook.com>Facebook</a> out of his college dorm room at Harvard University. Zuckerberg left college after his sophomore year to concentrate on the site, the user base of which has grown to more than two billion people, making Zuckerberg a billionaire many times over. The birth of Facebook was portrayed in the 2010 film The Social Network.
+<h5><p><i>Send Mark Zuckerberg an email at Facebook here:<a href="mail to:zuck@fb.com or zuckerberg@fb.com.">zuck@fb.com or zuckerberg@fb.com.</a></i></p></h5>
+</body>
+</html>
+
+
+PROGRAM 3
+Source Code:
+<!DOCTYPE html>
+<html>
+<head>
+<title>college site</title>
+</head>
+<body>
+<h1 style="text-align:center;color:blue"> Rajiv Gandhi Institute of Technology</h1>
+<font color="green">
+<marquee> 
+<b>
+Vision Be a center of technological excellence for the betterment of society...Mission-To impart professional education to students from 
+all sectors of the society to mould them to be competent,committed,research orieted and socially responsible citizens capable of deploying
+technology for the goodwill of the society.
+</b>
+</marquee>
+</font>
+<br>
+<h2 style="color:white;background-color:red"> About Us...</h2>
+<img src="img1.jpg" align="center" height=300px width=1000px>
+<p align="justify">
+Rajiv Gandhi Institute of Technology,named after the late Prime Minister Rajiv Gandhi,run by the Government of Kerala,started functioning in 1991.
+It has established a vast ifrastructure and put together a team of dedicated teachers.The Institution has become one of the leading technical Institutes in kerala.
+The government has started this institution in the view of making it a center for post graduation and research studies.The college is affiliated to the APJ ABDUL KALAM
+TECHNOLOGICAL UNIVERSITY.RIT,the sanctum of technology aims at providing high quality education for talented students from all sections of the society.
+Owned and managed by the Government of Kerala,it has a highly qualified and dedicated faculty.More than providing technical education RIT aims at the overall development of each
+and evert RITian.The college provide a positive environment for the students to develop their potentials and to ecxel in all works of life.</p>
+
+<h2 style="color:white;background-color:red">Courses Offered </h2>
+<p align="justify">
+All courses offered by RIT are affiliated to Abdul Kalam Technological University and approved by the All Indian Council 
+for Technical Education(AICTE).The Btech programmes are of 8 semester(4 year) courses are common for all branches.
+The Mtech  are of 4 semester(2 year) duration,and the MCA programme is of 6 semester(3 year) duration.</p>
+<table border="1" height=300px width=500px>
+<tr colspan="0">
+<td> UG </td>
+</tr>
+<tr colspan="3">
+<th> COURSE </th>
+<th> DEPARTMENT </th>
+<th> INTAKE </th>
+</tr>
+<tr>
+<td rowspan="5">B.tech </td>
+<td> Civil Engineering </td>
+<td> 66</td>
+</tr>
+<tr>
+<td> Mechanical Engineering </td>
+<td> 66</td>
+</tr>
+<tr>
+<td> Electrical & Electronics Engineering </td>
+<td> 66</td>
+</tr>
+<tr>
+<td> Electronics & Communication Engineering </td>
+<td> 66</td>
+</tr>
+<tr>
+<td> Computer Science & Engineering </td>
+<td> 66</td>
+</tr>
+<tr>
+<td>B.Arch </td>
+<td> Architecture</td>
+<td> 40 </td>
+</tr>
+</table>
+<br>
+  <table border="1" height=300px width=500px>
+<tr colspan="0">
+<td> PG </td>
+</tr>
+<tr colspan="4">
+<th> COURSE </th>
+<th> DEPARTMENT </th>
+<th> SPECILIZATION</th>
+<th> INTAKE </th>
+<tr>
+<td> Civil Engineering </td>
+<td>Transportation Engineering </td>
+<td> 18</td>
+</tr>
+<td> Mechanical Engineering </td>
+<td> Indusrtial Engg. & Management </td>
+<td> 18</td>
+</tr>
+<tr>
+<td> Electrical & Electronics Engineering </td>
+<td>Indusrtial Drives & Control </td>
+<td> 18 </td>
+</tr>
+<tr>
+<td> Electronics & Communication Engineering </td>
+<td> Advanced Communication and Information System </td>
+<td> 18</td>
+</tr>
+<tr>
+<td> Electronics & Communication Engineering </td>
+<td> Advanced Electronics and  Communication System </td>
+<td> 18</td>
+</tr>
+<tr>
+<td> Computer Science & Engineering </td>
+<td>Computer Science & Engineering </td>
+<td> 18</td>
+</tr>
+<tr>
+<td> MCA </td>
+<td> MCA </td>
+<td>Computer Applications </td>
+<td> 60</td>
+</tr>
+</table>
+<h2 style="color:white;background-color:red">Contact Us </h2>
+<h3><font color="blue">Address for Communication </font> </h3>
+Velloor P O <br>
+Pampady <br>
+Kottayam-686501,Kerala State <br>
+<a href="www.rit.ac.in">Official Website </a>
+</body>
+</html>
+
+
+PROGRAM 4
+
+Source Code
+Wp4.html
+<!DOCTYPE html>
+<head>
+<title>Festivals</title>
+<body>
+<h1 align="center" color="red">FESTIVALS IN INDIA</h1>
+<a href="onam.html">
+<img src="onam.jpg" width=500px height=700px>
+</a>
+<a href="xmas.html">
+<img src="xmas.jpg" width=500px height=700px>
+</a>
+<a href="eid.html">
+<img src="eid.jpg" width=500px height=700px>
+</a>
+<a href="holi.html">
+<img src="holi.jpg" width=500px height=700px>
+</a>
+</body>  
+</html> 
+onam.html
+<!DOCTYPE html>
+<head>
+<title>Festivals</title>
+</head>
+<body bgcolor="#E0FFFF">
+<h1 align="center" color="red"> ONAM </h1>
+<img src="onam.jpg" width=500px height=500px>
+<p align="justify"><b> Onam </b> is the most popular festival in the state of kerala.It is a 10 day long festival
+celebrated in the beginning of the month of Chingam,the first month of malayalam calendar(Kollavarsham).This corresponds with the month of 
+August to September according to the Gregorian calendar.Of the 10 days,the first day,Atham and tenth day,Thiruvonam are
+most important.
+Onam celebrations include Vallam Kali (boat races), Pulikali (tiger dances), Pookkalam (flower Rangoli), Onathappan (worship), Onam Kali, 
+Tug of War, Thumbi Thullal (women's dance), Kummattikali (mask dance), Onathallu (martial arts), Onavillu (music), Kazhchakkula (plantain offerings),
+ Onapottan (costumes), Atthachamayam (folk songs and dance), and other celebrations. It is the New Year day for Malayalis.
+</p>
+</body>
+</html>
+xmas.html
+<!DOCTYPE html>
+<head>
+<title>Festivals</title>
+<body bgcolor="#E0FFFF">
+<h1 align="center" color="red"> CHRISTMAS </h1>
+<img src="xmas.jpg" width=500px height=500px>
+<p align="justify"><b> Christmas </b> (or the Feast of the Nativity) is an annual festival commemorating the birth of Jesus Christ, observed 
+primarily on December 25 
+as a religious and cultural celebration among billions of people around the world.
+Most Christians celebrate on December 25 in the Gregorian calendar, which has been adopted almost universally in the civil calendars 
+used in countries throughout the world.
+Christmas Day is a public holiday in many of the world's nations,is celebrated religiously by a majority of Christians, as well as culturally 
+by many non-Christians,and forms an integral part of the holiday season centered around it.
+Popular modern customs of the holiday include gift giving; completing an Advent calendar or Advent wreath; Christmas music and caroling; viewing a Nativity play; an exchange of Christmas cards;
+ church services; a special meal; and the display of various Christmas decorations, including Christmas trees, Christmas lights, nativity scenes, garlands, wreaths, mistletoe, and holly. In addition, several closely related and often interchangeable figures, known as Santa Claus, Father Christmas, Saint Nicholas, and Christkind, are associated with bringing gifts to children
+ during the Christmas season and have their own body of traditions and lore.
+</p>
+</body>
+</html>
+eid.html
+<!DOCTYPE html>
+<head>
+<title>Festivals</title>
+<body bgcolor="#E0FFFF">
+<h1 align="center" color="red"> EID </h1>
+<img src="eid.jpg" width=500px height=500px>
+<p align="justify"><b> Eid </b>
+(sometimes known as Eid ul-Fitr), also called the "Festival of Breaking the Fast", is a religious holiday celebrated by Muslims
+ worldwide that marks the end of the month-long dawn-to-sunset fasting of Ramadan.This religious Eid is the only day in the month of 
+Shawwal during which Muslims are not permitted to fast. The date for the start of any lunar Hijri month varies based on when the new moon 
+is sighted by local religious authorities, so the day of celebration varies by locality. The holiday is widely called Korité in West Africa.
+Eid al-Fitr has a particular salat (Islamic prayer) that consists of two rakats (units) generally performed in an open field or large hall. 
+It may only be performed in congregation (jamāʿat) and features six additional Takbirs (raising of the hands to the ears while saying "Allāhu ʾAkbar", 
+meaning "God is the greatest") in the Hanafi school of Sunni Islam: three at the start of the first rakat and three just before rukūʿ in the second rakat.Other Sunni schools usually have twelve Takbirs, similarly split in groups of seven and five.
+</p>
+</body>
+</html>
+holi.html
+<!DOCTYPE html>
+<head>
+<title>Festivals</title>
+<body bgcolor="#E0FFFF">
+<h1 align="center" color="red"> HOLI </h1>
+<img src="holi.jpg" width=500px height=500px>
+<p align="justify"><b> Holi </b> is a popular ancient Hindu festival, also known as the "festival of spring", the "festival of colours",
+ and the "festival of love".The festival signifies the triumph of good over evil.It originated and is predominantly celebrated in India, 
+but has also spread to other regions of Asia and parts of the Western world through the diaspora from the Indian subcontinent.
+Holi is an ancient Hindu religious festival which has become popular among non-Hindus as well in many parts of South Asia, as well as people of other communities outside Asia.In addition to India and Nepal, the festival is celebrated by Indian subcontinent diaspora in countries such as Suriname, Guyana, Trinidad and Tobago, South Africa, 
+Mauritius, Fiji, Malaysia, Jamaica,the United Kingdom, the United States, the Netherlands, Canada, Australia, and New Zealand.
+</p>
+</body>
+</html>
+
+
+PROGRAM 5
+
+Source Code:
+mainframe.html
+<!DOCTYPE html>
+<html>
+<head>
+<title> iframes </title>
+</head>
+<body align="center">
+<h1> FRAMES </h1>
+<iframe name="frame1" src="part.html" height="500px" width="500px" style="background-color:yellow" >
+</iframe>
+<iframe name="frame2"  src="part2.html"  height="500px" width="500px" " style="background-color:yellow" >
+</iframe>
+</body> </html>
+part.html
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h2> <a href="flowers.html" target="frame2">FLOWERS</a> <br>
+<h2> <a href="tree.html" target="frame2">TREES</a> <br>
+<h2> <a href="fruits.html" target="frame2">FRUITS</a> <br>
+<h2> <a href="vegetable.html" target="frame2">VEGETABLES</a> 
+</h2>
+</body>
+</html>
+part2.html
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h3> Select any of the item shown on the left side </h3>
+</body>
+</html>
+flowers.html
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<img src="flower.jpg" height="250px" width="250px">
+<p>
+A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants (plants of the division 
+Magnoliophyta, also called angiosperms). The biological function of a flower is to facilitate reproduction, usually by providing a 
+mechanism for the union of sperm with eggs. Flowers may facilitate outcrossing (fusion of sperm and eggs from different individuals 
+in a population) resulting from cross pollination or allow selfing (fusion of sperm and egg from the same flower) when self pollination occurs.
+Pollination have two types which is self-pollination and cross-pollination. Self-pollination happens when the pollen from the anther 
+is deposited on the stigma of the same flower, or another flower on the same plant. Cross-pollination is the transfer of pollen from 
+the anther of one flower to the stigma of another flower on a different individual of the same species. 
+</p>
+</body>
+ </html>
+fruits.html
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<img src="fruit.jpg" height="250px" width="250px">
+<p>
+In botany, a fruit is the seed-bearing structure in flowering plants (also known as angiosperms) formed from the ovary after flowering.
+Fruits are the means by which angiosperms disseminate seeds. Edible fruits, in particular, have propagated with the movements of humans
+ and animals in a symbiotic relationship as a means for seed dispersal and nutrition; in fact, humans and many animals have become dependent
+ on fruits as a source of food.Accordingly, fruits account for a substantial fraction of the world's agricultural output, and some (such as the apple and the pomegranate) have acquired extensive cultural and symbolic meanings.
+In common language usage, "fruit" normally means the fleshy seed-associated structures of a plant that are sweet or sour, and edible in the raw state, such as apples, bananas, grapes, lemons, oranges,
+ and strawberries. On the other hand, in botanical usage, "fruit" includes many structures that are not commonly called "fruits", such as bean pods, corn kernels, tomatoes, and wheat grains.
+</p>
+</body>
+</html>
+tree.html
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<img src="tree.jpg" height="250px" width="250px">
+<p> 
+In botany, a tree is a perennial plant with an elongated stem, or trunk, supporting branches and leaves in most species. 
+In some usages, the definition of a tree may be narrower, including only woody plants with secondary growth, plants that are usable as lumber or plants 
+above a specified height. In wider definitions, the taller palms, tree ferns, bananas, and bamboos are also trees. 
+Trees are not a taxonomic group but include a variety of plant species that have independently evolved a trunk and branches as a way 
+to tower above other plants to compete for sunlight. Trees tend to be long-lived, some reaching several thousand years old. 
+Trees have been in existence for 370 million years. It is estimated that there are some three trillion mature trees in the world.
+</p>
+</body>
+</html>
+vegetable.html
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<img src="vegetable.jpg" height="250px" width="250px">
+<p>
+Vegetables are parts of plants that are consumed by humans or other animals as food. The original meaning is still commonly used and is
+ applied to plants collectively to refer to all edible plant matter, including the flowers, fruits, stems, leaves, roots, and seeds.
+ The alternate definition of the term is applied somewhat arbitrarily, often by culinary and cultural tradition. It may exclude foods
+ derived from some plants that are fruits, flowers, 
+nuts, and cereal grains, but include savoury fruits such as tomatoes and courgettes, flowers such as broccoli, and seeds such as pulses.
+Vegetables can be eaten either raw or cooked and play an important role in human nutrition, being mostly low in fat and carbohydrates, 
+but high in vitamins, minerals and dietary fiber. Many nutritionists encourage people to 
+consume plenty of fruit and vegetables, five or more portions a day often being recommended.
+</p>
+</body>  </html>
+
+PROGRAM 5
+Source Code
+<html>
+<head>
+<title>Student Registration Form</title>
+</head>
+<body>
+<h3 align="center">STUDENT REGISTRATION FORM</h3>
+<br>
+<table border="1" align="center" cellspacing="2" cellpadding="5">
+<tr><td><label>FIRST	NAME</label></td><td>
+<input type="text"maxlength="30"><label>(max30 characters)</label></td></tr>
+<tr><td><label>LAST	NAME</label></td><td>
+<inputtype="text"maxlength="30"><label>
+(max30characters)</label></td></tr>
+<tr><td><label>DATE OF BIRTH</label></td><td> <select>
+<option value="">day</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+<select>
+<option value="">Month:</option>
+<option value="1">Jan</option>
+<option value="2">Feb</option>
+<option value="3">Mar</option>
+<option value="4">Apr</option>
+<option value="5">May</option>
+<option value="6">Jun</option>
+<option value="7">Jul</option>
+<option value="8">Aug</option>
+<option value="9">Sep</option>
+<option value="10">Oct</option>
+<option value="11">Nov</option>
+<option value="12">Dec</option>
+</select>
+<select>
+<option value="">Year:</option>
+<option value="1990">1990</option>
+<option value="1991">1991</option>
+<option value="1992">1992</option>
+<option value="1993">1993</option>
+<option value="1994">1994</option>
+<option value="1995">1995</option>
+<option value="1996">1996</option>
+<option value="1997">1997</option>
+<option value="1998">1998</option>
+<option value="1999">1999</option>
+<option value="2000">2000</option>
+</select></td></tr>
+
+s<tr><td><label>EMAIL ID</label></td>
+<td>
+<input type="text" max="30"></td></tr>
+<tr><td><label>MOBILE NUMBER</label></td><td>
+<input type="text" maxlength="10"><label>(10 digit number)</label></td></tr>
+<tr><td><label>GENDER</label></td><td>Male<input type="radio" name="g">Female<input type="radio" name="g"></td></tr>
+<tr><td><label>ADDRESS</label></td><td><textarea></textarea></td></tr>
+<tr><td><label>CITY</label></td><td><inputtype="text"maxlength="30"><label>
+(max30characters)</label></td></tr>
+<tr><td><label>PINCODE</label></td><td>
+<inputtype="text"maxlength="6"><label>(6digit number)</label></td></tr>
+<tr><td><label>STATE</label></td><td>
+<inputtype="text"maxlength="30"><label>(max	30
+characters)</label></td></tr>
+<tr><td><label>COUNTRY</label></td><td>
+<input type="text" value="India"></td></tr>
+<tr><td><label>HOBBIES</label></td><td>Drawing<input	type="checkbox">Singing
+<input type="checkbox">
+Dancing
+<input type="checkbox">Sketching
+<input type="checkbox">Others<input type="checkbox"><input type="text"></td></tr>
+<tr><td><label>QUALIFICATION</label></td><td>
+<table>
+<tr><th>Sl.No</th><th>Examination</th><th>Board</th><th>Percentage</th><th>year of Passing</th></tr>
+<tr><td>1</td><td>Class	X</td><td><input	type="text"></td><td>
+<input type="text"></td><td><input type="text"></td><td></tr>
+<tr><td>2</td><td>Class	XII</td><td>
+<input type="text"></td><td>
+<input type="text"></td><td><input type="text"></td><td></tr>
+<tr><td>3</td><td>Graduation</td><td>
+<inputtype="text"></td><td>
+<inputtype="text"></td><td>
+<input type="text"></td><td></tr>
+<tr><td>4</td><td>Masters</td><td>
+    <input type="text"></td><td>
+   <input type="text"></td><td><input type="text"></td><td></tr>
+</table>
+</td></tr>
+<tr><td><label>COURSESAPPLIED FOR</label></td><td>MCA<input	type="radio" name="q">M.Tech<input type="radio" name="q">
+M.Sc
+<input type="radio" name="q">Ph.D
+<input type="radio" name="q"></td></tr>
+<tr><td><label>TYPE YOUR PASSWORD</label></td><td>
+<input type="password" max="30"><label>(max 30 characters)</label></td></tr>
+<tr><td><label>UPLOAD YOUR PHOTO</label></td><td>
+<input type="file" max="30"></td></tr>
+<tr><td><label>DATE OF TC</label></td><td>
+<input type="date" max="30"></td></tr>
+<tr>
+<td	colspan="2"align="center">
+<input type="submit"value="submit">
+<input type="reset" value="Reset"></td>
+</table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
